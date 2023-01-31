@@ -56,6 +56,7 @@ img {
     text-align: end;
     font-weight: bold;
     margin-top: 50px;
+    margin-right: 10px;
 }
 
 nav {
@@ -145,6 +146,11 @@ ul li a {
     width: 686px;
 }
 
+.article__box{
+    width: 600px;
+    background-color: red;
+}
+
 .laest {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -164,12 +170,75 @@ button {
 aside h3 {
     color: red;
 }
-
-footer {
-    background: #f5f5f5;
-    height: 200px;
+.midt{
+    display: flex;
+}
+.seneste h3{
+    color: red;
 }
 
-footer article {
+.midt{
+    display: flex;
+}
+
+.information{
     width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+}
+
+.information__header{
+    grid-column: 3/4;
+}
+
+.information__dotted{
+    grid-column: 1/4;
+}
+
+.information__nu{
+    grid-column: 1/4;
+    grid-row: 3/4;
+}
+.thumb{
+    display: grid;
+}
+.seneste{
+    display: flex;
+    flex-direction: column;
+    width: 337px;
+}
+
+.seneste p{
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+
+.footer {
+    background: #f5f5f5;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+}
+.footer__box{
+    display: flex;
+    flex-direction: column;
+    width: 270px;
+    margin-top: 20px;
+}
+
+.footer__box a{
+    text-align: left;
+}
+
+.footer__para{
+    margin-bottom: 1em;
+}
+.footer__img{
+    width: 200px;
+    display: block;
+}
+
+.footer__header{
+    margin-bottom: 1em;
 }
