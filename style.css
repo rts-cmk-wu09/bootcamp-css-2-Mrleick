@@ -122,9 +122,21 @@ ul li a {
     width: 686px;
 }
 .laest{
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: auto;
+    gap: 20px;
 }
 
+.laest__article{
+    margin: auto;
+}
+
+button{
+    width:40px;
+}
+
+    
 aside h3{
     color: red;
 }
