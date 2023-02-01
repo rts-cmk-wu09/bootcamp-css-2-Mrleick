@@ -11,38 +11,40 @@
 </head>
 
 <body>
-    <header>
-        <div class="burgermenu">
+    <header class="header">
+        <div class="header__burger">
             <i class="fa-solid fa-bars"></i>
-            <a href="#">MENU</a>
+            <a class="header__link" href="#">MENU</a>
             <i class="fa-solid fa-magnifying-glass"></i>
         </div>
 
-        <div class="logo">
+        <div class="header__logo">
             <img src="img/Information.webp" alt="logo">
         </div>
 
-        <div class="social">
+        <div class="header__social">
             <a href="#">Log in</a>
             <i><i class="fa-solid fa-user"></i></i>
         </div>
 
-        <nav class="navigation">
-            <ul>
-                <li><a href="#">Nyhedsbreve</a></li>
-                <li><a href="#">Podcast</a></li>
-                <li><a href="#">Køb abonnement</a></li>
+        <nav class="header__nav">
+            <ul class="header__ul">
+                <li class="header__item"><a href="#">Nyhedsbreve</a></li>
+                <li class="header__item"><a href="#">Podcast</a></li>
+                <li class="header__item"><a href="#">Køb abonnement</a></li>
             </ul>
         </nav>
     </header>
 
+    <!--Wrapper start-->
     <div class="wrapper">
+
         <div class="ad"></div>
 
         <article class="article">
-            <div class="article__text">
+            <div class="article__textbox">
                 <p class="article__abonnement">Abonnement</p>
-                <h2>Gas er et godt politisk våben. Det er bare ikke Putin, der bruger det</h2>
+                <h2 class="article__header">Gas er et godt politisk våben. Det er bare ikke Putin, der bruger det</h2>
                 <p>Nogle EU-lande frygter, at Rusland kan bruge Nord Stream 2 som politisk våben mod Europa. Men i
                     virkeligheden er det omvendt, mener firmaerne bag rørledningen: Det er EU, der bruger gassen som
                     våben over for Putin. Information har været på charmetur med den russiske gas' europæiske venner
@@ -56,7 +58,7 @@
             </div>
 
             <div class="article__author">
-                <h3>Udland</h3>
+                <h3 class="article__secondheader">Udland</h3>
                 <hr class="dotted">
                 <img class="article__authorimg" src="img/Skærmbillede 2023-01-31 082945.png" alt="Billede af forfatter">
                 <span>Jacob stein</span>
@@ -182,6 +184,9 @@
 
 
     </div>
+    <!--Wrapper END-->
+
+
     <footer class="footer">
         <article class="footer__box">
             <h4 class="footer__header">Information om E-avis</h4>
